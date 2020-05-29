@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="How well do you know me?">
+        <title>Igloo</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap">
+    </Head>
+
+    <body>
+        
+        <div class="container">
+
+                <form action="" id="form" autocomplete="off"  autocapitalize="off">
+
+                    <div id="page0">
+                            <div class="tag">
+                                How well <br /> do you know me
+                            </div>
+
+                            <div class="tagline">
+                                Answer five questions and find out ;)
+                            </div>
+
+                        <p Class="QuestionNumber">Enter your name</p>
+                        <input type="text" id="Name" name="Name"></br>
+                        <div id="verify2">Enter name to cotinue</div>
+
+                        <button type="button" onclick="collectNamee()" id="submit">Next</button>
+
+                    </div>
+
+                    <div id="page1">    
+                        <p Class="QuestionNumber">Question 1</p>
+                        <label for="mdleName" style="margin-left: 20px; " id="mdLabel">What is my middle name?</label></br>
+                        <input type="text" id="mdleName" name="mdleName"></br>
+                        <div id="verify">Enter answer to cotinue</div>
+
+                        <button type="button" onclick="collectName()" id="submit">Next</button>
+                    </div>
+                    
+
+
+                    <div id="page2">
+                        <p class="QuestionNumber">Question 2</p>
+
+                        <div id="Question">What is my favourite color?</div>
+                        <input type="radio" id="black" name="black" value="black">
+                        <label for="black" id="blackLabel">Black</label>
+
+                        <input type="radio" id="gold" name="black" value="gold">
+                        <label for="gold" id="goldLabel">Gold</label></br>
+
+                        <input type="radio" id="peach" name="black" value="peach">   
+                        <label for="peach" id="peachLabel">Peach</label>
+
+                        <input type="radio" id="red" name="black" value="red">
+                        <label for="red" id="redLabel">Red</label>
+
+                        <div id="verify2">Enter answer to cotinue</div>
+
+                        <p><button type="button" id="submit" onclick="collectColor()">Next</button></p>
+
+                    </div>
+
+                    <div id="page3">
+                        <p class="QuestionNumber">Question 3</p>
+
+                        <div id="Question">Which would I rather have?</div>
+                        <input type="radio" id="rice" name="food" value="friedrice">
+                        <label for="rice" id="blackLabel">Fried Rice</label>
+
+                        <input type="radio" id="soup" name="food" value="whitesoup">
+                        <label for="soup" id="goldLabel">White soup</label>
+
+                        <p><button type="button" id="submit" onclick="collectFood()">Next</button></p>
+                    </div>
+
+                    <div id="page4">
+                        <p class="QuestionNumber">Question 4</p>
+
+                        <div id="Question">Which would I rather take?</div>
+                        <input type="radio" id="laCasera" name="drink" value="laCasera">
+                        <label for="laCasera" id="blackLabel">LaCasera</label>
+
+                        <input type="radio" id="Pepsi" name="drink" value="Pepsi">
+                        <label for="Pepsi" id="goldLabel">Pepsi</label>
+
+                        <p><button type="button" id="submit" onclick="collectDrink()">Next</button></p>
+                    </div>
+
+                    <div id="page5">
+                        <p class="QuestionNumber">Question 5</p>
+
+                        <div id="Question">Which type of movie would I prefer?</div>
+                        <input type="radio" id="Sci-Fi" name="movie" value="Sci-Fi">
+                        <label for="Sci-Fi" id="blackLabel">Sci-Fi</label>
+
+                        <input type="radio" id="Drama" name="movie" value="Drama">
+                        <label for="Drama" id="goldLabel">Love/Romance</label>
+
+                        <p><button type="button" id="submit" onclick="collectMovie()">Next</button></p>
+                    </div>
+
+                    <div id="page6">
+                        <p class="QuestionNumber">Your result!</p>
+
+                        <div class="result" id="Question">
+                            Question 1 <div id="q1">correct <span class="correct" >&#8730;</span> </div> 
+                            <div id="q1b">wrong <span class="incorrect">&times;</span></div><br />
+                            Question 2 <div id="q2">correct <span class="correct" >&#8730;</span> </div> 
+                            <div id="q2b">wrong <span class="incorrect">&times;</span></div><br />
+                            Question 3 <div id="q3">correct <span class="correct" >&#8730;</span> </div> 
+                            <div id="q3b">wrong <span class="incorrect">&times;</span></div><br />
+                            Question 4 <div id="q4">correct <span class="correct" >&#8730;</span> </div> 
+                            <div id="q4b">wrong <span class="incorrect">&times;</span></div><br />
+                            Question 5 <div id="q5">correct <span class="correct" >&#8730;</span> </div> 
+                            <div id="q5b">wrong <span class="incorrect">&times;</span></div><br />
+                        </div>
+
+                        <p id="pR"> Now <span id="resultName"></span>, grade yourself! :)</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html> 

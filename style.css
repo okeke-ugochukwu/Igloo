@@ -1,0 +1,169 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #87ceeb;
+}
+#form {
+    width: 90%;
+    margin: auto;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 130px;
+}
+.QuestionNumber {
+    width: 85%;
+    color:  white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color:#02135e;
+    border: 1px solid #02135e;
+    border-radius: 8px 50px 12px 8px;
+    padding: 5px 10px 10px 10px;
+}
+label {
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#mdleName, #Name {
+    width: 85%;
+    height: 37px;
+    font-size: 15px;
+    font-size: 15px;
+    color: black;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-family: 'coming soon';
+}
+
+#submit {
+    border: 1px solid #02135e;
+    border-radius: 8px 50px 12px 8px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #02135e;
+    width: 30%;
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    transition: 0.2s;
+    text-align: left;
+}
+#submit:hover {
+    color:  white;
+    background: #02135e;
+    border: 1px solid #02135e;
+}
+#page1, #page2, #page3, #page4, #page5,#page6 {
+    display: none ;
+}
+#Question {
+    width: 85%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-left: 27px;
+}
+#redLabel, #blackLabel, #peachLabel, #goldLabel {
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+#black, #peach, #rice, #soup
+, #laCasera, #Pepsi, #Sci-Fi, #Drama {
+    margin-left: 30px;
+}
+#laCasera {
+    margin-bottom: 15px;
+}
+#rice {
+    margin-bottom: 20px;
+}
+#gold {
+    margin-left: 40px;
+}
+#red {
+    margin-left: 34px;
+}
+#black, #peach, #gold, #red {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.result {
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#q1, #q1b, #q2, #q2b, #q3, #q3b, #q4, #q4b, #q5, #q5b {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+}
+ #verify, #verify2 {
+    display: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    font-size: 15px;
+    font-family: 'coming soon';
+    animation: shake .3s linear both;
+}
+@keyframes shake {
+    25% {
+        margin-left: -10px;
+    }
+    50% {
+        margin-left: 30px;
+    }
+    75% {
+        margin-left: -10px;
+    }
+    100% {
+        margin-left: 30px;
+    }
+}
+.correct {
+    color: rgb(18, 99, 18);
+}
+.incorrect {
+    color: rgb(187, 0, 0);
+    font-weight: 500;
+}
+#pR {
+    width: 250px;
+    padding: 7px;
+    color: #02135e;
+    border-radius: 8px 50px 12px 8px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+#resultName {
+    text-transform: capitalize;
+}
+.tag {
+    font-family: 'Baloo 2', cursive;
+    font-size: 45px;
+    line-height: 35px;
+    color: #010f4d;
+    font-weight: bold;
+    margin-left: 20px
+}
+.tagline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 40px;
+    color: #02135e;
+}
+#Sci-Fi, #peach {
+    margin-bottom: 15px;
+}
